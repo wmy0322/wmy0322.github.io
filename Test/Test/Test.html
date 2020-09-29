@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Test</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="../webcss-all.css" type="text/css" rel="stylesheet">
+        <link href="Test.css" type="text/css" rel="stylesheet">
+        <script type="text/javascript" src="Test.js"></script>
+        <h1>Who's still standing ?</h1>
+        <script>
+            
+          </script>
+    </head>
+
+    <header id="introduction">
+        <p>
+            A brand-new educational challenge program with novel forms, full of fun, exploring personality in challenges and full of suspense. By using the mode that participants on the field answer questions individually, participants with different occupations and social labels can conduct knowledge PK in a limited time.
+        </p>
+    </header>
+
+    <body  onload="CurrentDate()">
+        <div id="Lbody">
+            <form method="post" name="Test">
+                <fieldset id="P1">
+                    <legend><em>Contact Information</em></legend>
+                    <div class="inform">
+                        <div class="inf">
+                            Username: <input type="text" id="UserName" size="25" placeholder="please enter your name" /><br />
+                            <!-- Username:<button onclick="myFunction()">点我</button>   -->
+                        </div>
+                        <div class="inf">
+                            E-mail: &nbsp &nbsp &nbsp<input type="text" id="UserEmail" size="25" placeholder="please enter your E-mail" /><br />
+                        </div>
+                    </div>
+                    <div class="subinform">
+                        <input type="button" onclick="ShowUserName()" value="Let's start !" />
+                    </div>
+                </fieldset><br />
+
+                <a id="N1"></a> 
+                <fieldset id="P2" >
+                    <legend><em>Single Choice</em></legend>       
+                    <fieldset class="danxuan">
+                        <p class="que">国家马拉松的赛程是？ </p> 
+                        <input type="radio" name="t1" value="0" />
+                        42195m<br />
+                        <input type="radio" name="t1" value="1" />
+                        42295m<br />
+                        <input type="radio" name="t1" value="0" />
+                        42395m<br />
+                        <input type="radio" name="t1" value="0" />
+                        42495m<br />
+                    </fieldset>   
+
+                    <fieldset class="danxuan">
+                        <p class="que">海市蜃楼是光折射产生的现象，它通常发生在哪个季节？</p>
+                        <input type="radio" name="t2" value="0" />
+                        春天<br />
+                        <input type="radio" name="t2" value="1" />
+                        夏天<br />
+                        <input type="radio" name="t2" value="0" />
+                        秋天<br />
+                        <input type="radio" name="t2" value="0" />
+                        冬天<br />
+                    </fieldset>   
+
+                    <fieldset class="danxuan">
+                        <p class="que">人们常说的"黄道"是指哪种天体运行周年的轨道？</p> 
+                        <input type="radio" name="t3" value="0" />
+                        金星<br />
+                        <input type="radio" name="t3" value="0" />
+                        月亮<br />
+                        <input type="radio" name="t3" value="1" />
+                        太阳<br />
+                        <input type="radio" name="t3" value="0" />
+                        地球<br />
+                    </fieldset>   
+                </fieldset><br />
+
+                <a id="N2"></a> 
+                <fieldset id="P3" >
+                    <legend><em>Multiple Choice</em></legend> 
+                    <fieldset class="duoxuan">
+                        <p class="que">下面的描述中哪些语句是正确的？</p> 
+                        <input type="checkbox" name="t4" value="0" />世界上第一枚邮票出现在法国 <br />
+                        <input type="checkbox" name="t4" value="1" />干果中脂肪含量最高的是核桃仁<br />
+                        <input type="checkbox" name="t4" value="0" />七大洲中面积最小的是南极洲<br />
+                        <input type="checkbox" name="t4" value="1" />《奥赛罗》的作者是莎士比亚<br />
+                    </fieldset><br />
+
+                    <fieldset class="duoxuan">
+                        <p class="que">下面哪些是造成伦敦烟雾的直接原因？</p> 
+                        <input type="checkbox" name="t5" value="1" />二氧化硫 <br />
+                        <input type="checkbox" name="t5" value="0" />二氧化碳<br />
+                        <input type="checkbox" name="t5" value="0" />臭氧<br />
+                        <input type="checkbox" name="t5" value="1" />粉尘<br /> 
+                    </fieldset><br />
+
+                    <fieldset class="duoxuan">
+                        <p class="que">下面属于世界自然遗产的有_____？</p> 
+                        <input type="checkbox" name="t6" value="1" />湖南武陵源 <br />
+                        <input type="checkbox" name="t6" value="0" />四川黄龙溪<br />
+                        <input type="checkbox" name="t6" value="1" />云南三江并流<br />
+                        <input type="checkbox" name="t6" value="0" />四川峨眉山<br /> 
+                    </fieldset><br />
+                </fieldset>
+
+                <a id="N3"></a> 
+                <fieldset id="P4" >
+                    <fieldset>
+                        <legend><em>Tiebreaker Question</em></legend>   
+                        <p class="que">请分享一段你喜欢的文字或者一首歌，并说明为什么喜欢它:</p>
+                        <textarea class="comments" rows=5   name="wwrite"  cols=60 placeholder="请尽情发挥~" onpropertychange= "this.style.posHeight=this.scrollHeight "></textarea>  <!--文本框自适应宽高-->
+                    </fieldset>
+                </fieldset>
+
+
+                <fieldset>
+                    <legend><em>Enter competition</em></legend>
+                    <a id="N4"></a> 
+                    <div id="sco">
+                        <input type="button" onclick="ShowScore()" value="点击查看分数" >
+                    </div>
+                    <div id="ans">
+                        <input type="button" onclick="ShowAnswer()" value="点击查看答案" >
+                        
+                    </div>
+                    <p class="out">您的得分是（满分100）:</p>
+                    <span id="Score"></span> 
+                    <span id="Answer"></span>
+                </fieldset>  
+            </form>
+            
+            
+        </div>
+    </body>
+
+    <aside>
+        <div id="Rbody">
+            <div id="nowtime"></div>
+
+            <div id="wel">
+                <p >Welcome <span id="UName"></span ></p> 
+                 <!-- <p id="demo"></p> -->
+            </div>
+
+            <div id="time">
+                <p>计时器：</p>
+                <div style="margin-left:15% ;margin-top: 0px;">
+                    <input type="text" id="timetext" value="00时00分00秒" readonly><br>
+                    <button type="button" onclick="start()">开始</button> <button type="button" onclick="stop()">暂停</button> <button type="button" onclick="Reset()">重置</button>
+                  </div>
+            </div>
+
+            <div id="menu">
+                <p class="topic">本页导航</p>
+                <ul>
+                    <li class="liB"><a class="Link" href="#N1">单选题</a></li>
+                    <li class="liB"><a class="Link" href="#N2">多选题</a></li>
+                    <li class="liB"><a class="Link" href="#N3">简答题</a></li>
+                    <li class="liB"><a class="Link" href="#N4">查看分数</a></li>
+                    <li class="liB"><a class="Link" href="#N5">查看答案</a></li>
+                </ul>
+            </div>
+
+            <div id="list">
+                <p class="topic">实时排行榜</p>
+                <table class="table">
+                    <tr>
+                        <td class="l1">1</td>
+                        <td class="l2">xx</td>
+                    </tr>
+                    <tr>
+                        <td class="l1">2</td>
+                        <td class="l2">xx</td>
+                    </tr>
+                    <tr>
+                        <td class="l1">3</td>
+                        <td class="l2">xx</td>
+                    </tr>
+                    <tr>
+                        <td class="l1">4</td>
+                        <td class="l2">xx</td>
+                    </tr>
+                    <tr>
+                        <td class="l1">5</td>
+                        <td class="l2">xx</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </aside>
+
+    <br>
+    <hr size="2" width="88%" margin-top="100px" background-color:"black">
+
+    <footer>
+        <div id="footer">   
+            <p>&copy;
+                -------------wmy-------------<br>
+                --1120190862--<br>
+                --07111902--<br>
+                --2020.9.24--
+            </p>
+        </div>
+        
+
+    </footer>
+
+</html>

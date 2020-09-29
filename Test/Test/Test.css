@@ -1,0 +1,269 @@
+    h1
+    {
+        /* background-color: antiquewhite; */
+        margin:0px;
+        background-color:  rgba(176, 243, 253, 0.605);
+        font-size:50px;
+        width: 85%;
+        height: auto;
+        margin-top:0px;
+        margin-left:8%;
+        border-radius:15px;
+        float: left;
+        text-align: center;
+    }
+    #introduction
+    {  
+        margin-top:10px;
+        background-color: rgba(224, 255, 237, 0.554);
+        width:70%;
+        height: auto;    
+        border-radius:9px;
+        float: left;
+        padding:1%;
+
+        text-indent:2em;
+        font-size: 19px;
+        color: rgb(106, 78, 100);
+    }
+    #Lbody
+    {
+        background-color: rgba(252, 190, 233, 0.299);
+        width:70%;
+        height: auto;
+        float: left;
+        padding:1.5%;
+        border-radius:10px;
+        font-size:17px;
+        margin-bottom:10px;
+        margin-top:10px;
+    }
+        #P1
+        {
+            /* background-color: 22222222;  */
+        }
+            .inform
+            {
+                font-size:22px;
+                /* background-color: darkseagreen; */
+                width:70%;
+                height: auto;
+                float: left;
+                margin-left:0px;
+            }
+                .inf
+                {
+                    /* background-color: rgb(88, 228, 88); */
+                    margin-left: 9%;
+                    width:40%;
+                    float: left;
+                }
+            .subinform
+            {
+                /* background-color: rgb(61, 240, 61); */
+                width:20%;
+                height: auto;
+                float: left;
+                margin-left: 40px;
+                margin-top:30px;
+            }
+        #P2
+        {
+             /* background-color: 22222222;  */
+             
+        }
+            .danxuan
+            {
+                margin-top:4px;
+                border-radius:18px;
+                /* background-color: 333333333333333; */
+            }
+            .que
+            {
+                margin:5px;
+                padding:0px;
+                font-family: 楷体;
+                font-weight: bolder;
+                font-size: 21px;
+            }
+        #P3
+        {
+                /* background-color: 22222222;  */
+        }
+            .duoxuan
+            {
+                margin-top:1px;
+                border-radius:18px;
+                /* background-color: 333333333333333; */
+            }
+        #P4
+        {
+             /* background-color: 22222222;  */
+        }   
+            .comments
+            {
+                font-size:19px;
+               
+            }
+
+        #sco
+        {
+            /* background-color: aqua; */
+            width:50%; 
+            float:left;
+            color: rgb(255, 0, 0);
+            font: 600 20px/1.8em black 微软雅黑;
+            margin-left: 20px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }   
+        #ans
+        {
+            /* background-color: rgb(0, 255, 81); */
+            color: rgb(0, 0, 0);
+            width:45%; 
+            float:left;
+            font: 600 20px/1.8em black 微软雅黑;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+            .out
+            {
+                /* background-color: rgb(0, 98, 255); */
+                color: rgb(0, 0, 0);
+                width:30%; 
+                float:left;
+                font: 600 20px/1.8em black 微软雅黑;
+                margin-top: 0px;
+                margin-left: 20px;
+                margin-bottom: 0px;
+            }
+            #Score
+            {
+                /* background-color: rgb(140, 220, 220); */
+                color: red;
+                font-size: 28px;
+                margin-top: 5px;
+                /* margin-left: 200px; */
+                float: left;
+                height: 36px;
+                width:65%; 
+                /* background-color: blueviolet;" */
+            }
+            #Answer
+            {
+                /* background-color: aqua; */
+                width:100%;
+            }
+
+    #Rbody
+    {
+        background-color: rgba(247, 216, 237, 0.599);
+        width:20%;
+        float: left;
+        display: block;
+        height: 78%;
+        margin-left: 55%;
+        margin-top: 69px;
+        position: fixed;
+        padding: 0px;
+    }
+        #nowtime
+        {
+            width:100%;
+            padding-left: 5%;
+            margin-top: 5px;
+            font-size: 18px;
+        }
+        #wel
+        {
+            width:95%;
+            /* background-color:  rgba(235, 248, 248, 0.49); */
+            height:auto;
+            font-size:28px;
+            color:rgb(29, 45, 220);
+            padding-left:5%;  
+            margin:0px; 
+        }
+        #time
+        {
+            width:94%;
+            /* background-color: antiquewhite; */
+            font-size:22px;
+            font-family: 黑体;
+            padding-left:6%;
+        }
+        #menu
+        {
+            width:100%;
+            height:auto;
+            /* background-color: beige; */
+            margin:0px;
+        }
+            .topic
+            {
+                font-weight: 700;
+                font-size:28px;
+                font-family:楷体;
+                padding-left: 30px;
+                margin:0px;
+            }
+            .liB a:link
+            {
+                font-size:20px;
+                text-decoration:none;
+            }
+            .liB a:hover
+            {
+                font-size:25px; 
+            }    
+        /* #tbox
+        {
+            width:100%;
+            justify-content: center;
+            display: inline-block;
+            /* background-color: rgb(200, 235, 210); */       
+        /* }  */
+            .table
+            {
+                /* padding-left: 66px; */
+                background-color: rgba(240, 255, 255, 0.601);
+                display: inline-block;
+                width:100%;
+                border-spacing:1px;
+                border:1px solid  rgb(200, 235, 210);
+                border-collapse:collapse;
+                word-break:break-all;
+                text-align: center;
+            }
+            .l1
+            {
+                width:120px;
+                padding:2px 5px;
+                background-color: rgba(54, 147, 147, 0.616);
+                border:1px solid #A2C0DA;
+                border-collapse:collapse;
+            }
+            .l2
+            {
+                width:80%;
+                padding:2px 5px;
+                /* background-color: rgba(54, 147, 147, 0.616); */
+                border:1px solid #A2C0DA;
+                border-collapse:collapse;
+            }
+           
+    
+    #footer
+    {
+        /* background-color: rgb(24, 197, 245); */
+        width:100%;
+        height:auto;
+        clear:both;
+        /* margin-top:20px; */
+
+        font-size: 14.5px;
+        text-align:center;
+    } 
+        /* background-color:  rgba(235, 248, 248, 0.49); */
+
